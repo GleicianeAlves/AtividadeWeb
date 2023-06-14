@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 50;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    overflow: hidden;
+}
+.background{
+    background-image: url(um-fundo-suave-de-gradiente-vintage-com-um-poco-de-cor-pastel-usado-como-estudio-apresentacao-de-produto-e-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200vh; 
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;  
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover{
+    color:  #b60e38;
+    transition: 0.3s all;
+}
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #b60e38;
+    color: #b60e38;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+button{
+    color: #b60e38;
+    background: transparent;
+    border:solid 1px #b60e38;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #b60e38;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+    
+}
+
+.text h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #b60e38; 
+}
+
+.text p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.redes-social{
+    margin-top: 10px;
+}
+
+.redes-social a{
+    color: #b60e38;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+@media screen and (max-width:600px){
+    .cabeçalho-link {
+        display: none;
+    }
+    
+}
+</style>
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <div class="logo">
+                <i class="fa-sharp fa-regular fa-g"></i>
+            </div>
+
+            <div class="cabeçalho-link">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+
+                <li>
+                    <a href="#">Trabalho</a>
+                </li>
+                <button>Contatos</button>
+            </div>
+        </header>
+
+        <div class="container-text">
+            <div class="text">
+                <h3>Ola!</h3>
+                <h1>Eu sou <span>Gleiciane Fernandes</span></h1>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto<br>da indústria tipográfica e de impressos</p>
+                <div class="redes-social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                </div>
+                <button class="btn">Sobre Mim</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+</body>
+</html>
